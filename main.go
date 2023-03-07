@@ -1,12 +1,3 @@
-/*
- * @Author: zzz
- * @Date: 2021-06-08 12:04:38
- * @LastEditTime: 2021-06-09 08:20:27
- * @LastEditors: zzz
- * @Description: 提供Windows Server API
- * @FilePath: \go-windows-server-api\main.go
- */
-
 package main
 
 import (
@@ -83,7 +74,6 @@ func main() {
 	}
 
 	fmt.Println(hello.Greet())
-	fmt.Println("作者: zzz")
 	fmt.Println("说明: 在Windows Server上提供一些API接口，例如刷新DNS缓存等")
 	fmt.Println("使用: http://ip:5000/flushdns // 刷新DNS缓存")
 	r := setupRouter()
